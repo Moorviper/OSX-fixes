@@ -8,10 +8,10 @@ Clone Repo and go into the Folder.
 
 then:
 ```
-cp /usr/sbin/mDNSResponder .
-cp /usr/sbin/mDNSResponderHelper .
-cp /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist .
-cp /System/Library/LaunchDaemons/com.apple.mDNSResponderHelper.plist .
+cp ./mDNSResponder /usr/sbin/mDNSResponder
+cp ./mDNSResponderHelper /usr/sbin/mDNSResponderHelper
+cp ./com.apple.mDNSResponder.plist /System/Library/LaunchDaemons/com.apple.mDNSResponder.plist
+cp ./com.apple.mDNSResponderHelper.plist /System/Library/LaunchDaemons/com.apple.mDNSResponderHelper.plist
 ```
 
 
