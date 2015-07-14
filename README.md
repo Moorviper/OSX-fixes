@@ -1,8 +1,11 @@
-# OSX-fixes
+OSX-fixes
+==============
+
 wlan (DNS) fix for yosemite after Oct 16 2014 
 
 
-=== Usage: ===
+Usage:
+--------------
 
 Clone Repo and go into the Folder.
 
@@ -35,14 +38,16 @@ YOU HAVE TO REBOOT !!!!
 
 
 
-=== Add quit to finder ===
+Add quit to finder
+--------------
 
 ```
 defaults write com.apple.finder QuitMenuItem -bool yes
 ```
 
 
-=== Disable rootless on OSX 10.11 ===
+Disable rootless on OSX 10.11
+--------------
 
 turn rootless of and add verbose mode if needed:
 
@@ -56,7 +61,8 @@ to check if worked:
 nvram -p
 ```
 
-=== Block Facebook IPv4 / IPv6 ===
+Block Facebook IPv4 / IPv6
+--------------
 
 /etc/hosts
 
