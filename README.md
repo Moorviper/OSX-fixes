@@ -96,3 +96,9 @@ Block Facebook IPv4 / IPv6
 ::1 www.connect.facebook.net
 ::1 apps.facebook.com
 ```
+
+Path of the finder.app
+--------------
+```
+/System/Library/CoreServices/
+```
