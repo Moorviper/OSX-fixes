@@ -41,6 +41,21 @@ YOU HAVE TO REBOOT !!!!
 defaults write com.apple.finder QuitMenuItem -bool yes
 ```
 
+
+=== Disable rootless on OSX 10.11 ===
+
+turn rootless of and add verbose mode if needed:
+
+```
+nvram boot-args="rootless=0 -v"
+```
+
+to check if worked:
+
+```
+nvram -p
+```
+
 === Block Facebook IPv4 / IPv6 ===
 
 /etc/hosts
@@ -74,4 +89,4 @@ defaults write com.apple.finder QuitMenuItem -bool yes
 ::1 connect.facebook.net
 ::1 www.connect.facebook.net
 ::1 apps.facebook.com
-````
+```
