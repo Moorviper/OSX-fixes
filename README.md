@@ -33,3 +33,45 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.discoveryd_helper
 
 YOU HAVE TO REBOOT !!!!
 
+
+
+=== Add quit to finder ===
+
+```
+defaults write com.apple.finder QuitMenuItem -bool yes
+```
+
+=== Block Facebook IPv4 / IPv6 ===
+
+/etc/hosts
+
+````
+# Block Facebook IPv4
+127.0.0.1   www.facebook.com
+127.0.0.1   facebook.com
+127.0.0.1   login.facebook.com
+127.0.0.1   www.login.facebook.com
+127.0.0.1   fbcdn.net
+127.0.0.1   www.fbcdn.net
+127.0.0.1   fbcdn.com
+127.0.0.1   www.fbcdn.com
+127.0.0.1   static.ak.fbcdn.net
+127.0.0.1   static.ak.connect.facebook.com
+127.0.0.1   connect.facebook.net
+127.0.0.1   www.connect.facebook.net
+127.0.0.1   apps.facebook.com
+# Block Facebook IPv6
+::1 www.facebook.com
+::1 facebook.com
+::1 login.facebook.com
+::1 www.login.facebook.com
+::1 fbcdn.net
+::1 www.fbcdn.net
+::1 fbcdn.com
+::1 www.fbcdn.com
+::1 static.ak.fbcdn.net
+::1 static.ak.connect.facebook.com
+::1 connect.facebook.net
+::1 www.connect.facebook.net
+::1 apps.facebook.com
+````
