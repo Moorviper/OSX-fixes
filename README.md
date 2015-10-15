@@ -97,6 +97,12 @@ Block Facebook IPv4 / IPv6
 ::1 apps.facebook.com
 ```
 
+clear cache
+--------------
+```
+dscacheutil -flushcache
+```
+
 Path of the finder.app
 --------------
 ```
