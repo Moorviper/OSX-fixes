@@ -108,3 +108,9 @@ Path of the finder.app
 ```
 /System/Library/CoreServices/
 ```
+
+Allow large RSA-Keys
+--------------
+```
+sudo defaults write /Library/Preferences/com.apple.security RSAMaxKeySize -int 8192
+```
