@@ -114,3 +114,9 @@ Allow large RSA-Keys
 ```
 sudo defaults write /Library/Preferences/com.apple.security RSAMaxKeySize -int 8192
 ```
+
+Get airport.app back (needed if you wish to connect to a specific bssid)
+--------------
+```
+sudo ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport /usr/sbin/airport
+```
