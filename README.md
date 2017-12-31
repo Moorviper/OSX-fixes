@@ -66,7 +66,7 @@ Block Facebook IPv4 / IPv6
 
 /etc/hosts
 
-````
+```
 # Block Facebook IPv4
 127.0.0.1   www.facebook.com
 127.0.0.1   facebook.com
@@ -97,8 +97,10 @@ Block Facebook IPv4 / IPv6
 ::1 apps.facebook.com
 ```
 
+
 clear cache
 --------------
+
 ```
 dscacheutil -flushcache
 ```
